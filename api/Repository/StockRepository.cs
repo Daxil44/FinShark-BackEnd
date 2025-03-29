@@ -46,14 +46,9 @@ namespace api.Repository
             return await _context.Stocks.Include(c => c.Comments).FirstOrDefaultAsync(i=>i.Id==id);
         }
 
-        public Task<Stock?> GetBySymbolAsync(string symbol)
-        {
-            throw new NotImplementedException();
-        }
-
         public Task<bool> StockExists(int id)
         {
-            throw new NotImplementedException();
+            return _context.Stocks.AnyAsync(s => s.Id == id);
         }
 
         public async Task<Stock?> UpdateAsync(int id, UpdateStockRequestDto stockDto)
