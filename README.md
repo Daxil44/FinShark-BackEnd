@@ -98,7 +98,14 @@ The API is documented using **Swagger**. To access the Swagger UI:
 2. Open a web browser and navigate to `/swagger`.
 
 
-   ```
+  ## Future Enhancements 🚀
+
+- **Role-based Admin Dashboard**
+- **Stock Analytics & AI-powered Insights**
+- **User Notifications for Portfolio Changes**
+- **Hosted on Azure App Services**
+- **Database: Azure SQL Server**
+- **CI/CD Pipeline Enabled for Automatic Deployment**
 
 ## Contribution
 
