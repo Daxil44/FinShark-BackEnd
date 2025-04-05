@@ -1,4 +1,4 @@
-# FinShark – Backend (Finance and Stock Management API)
+# FinShark – Backend (Finance and Stock Management API) [Working on Backend]
 ## URL: https://finshark-ece62.web.app/
 
 ## Introduction
